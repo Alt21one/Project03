@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 48px 16px;
+  background: #f3f5f8;
+  font-family: Arial, sans-serif;
+  color: #17212b;
+}
+.counter-card {
+  box-sizing: border-box;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 32px;
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+#count {
+  margin: 20px 0;
+  font-size: 64px;
+  font-weight: bold;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+button {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 6px;
+  color: white;
+  background: #245fb5;
+  cursor: pointer;
+}
+button:hover {
+  background: #184988;
+}
